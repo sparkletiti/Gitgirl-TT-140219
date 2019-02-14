@@ -1,0 +1,8 @@
+#Python script to convert the lists below into a dictionary; name = ['Ayo', 'Barbie', 'Carla', Dede', 'Eugene'] and Age = [21, 13, 57, 43, 2]
+
+import pandas as pd
+dict = { "name": ['Ayo', 'Barbie', 'Carla', 'Dede', 'Eugene'], 
+         "Age" : [21,13,57,43,2]
+}
+personal_info =pd.DataFrame(dict)
+print (personal_info)
